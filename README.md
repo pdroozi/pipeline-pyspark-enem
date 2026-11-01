@@ -2,19 +2,17 @@
 
 [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pdroozi/pipeline-pyspark-enem/blob/main/pipeline_enem_medalhao.ipynb)
 
-Tutorial **completo e gratuito** de engenharia de dados com **Apache Spark**. Ele processa os microdados oficiais do ENEM 2023 (cerca de 4 milhões de inscritos) usando a **arquitetura medalhão** (bronze → prata → ouro) e responde a uma pergunta concreta:
+Estudo prático de engenharia de dados com **Apache Spark**. Ele processa os microdados oficiais do ENEM 2023 (cerca de 4 milhões de inscritos) usando a **arquitetura medalhão** (bronze → prata → ouro) e responde a uma pergunta concreta:
 
 > **Quanto a renda da família e o tipo de escola pesam na nota do ENEM, no Brasil, em São Paulo e no Vale do Paraíba?**
 
-Tudo roda no navegador, pelo Google Colab: não é preciso instalar Java, Spark nem baixar nada no seu computador.
+Tudo roda no navegador, pelo Google Colab.
 
 ---
 
 ## Por que este projeto existe
 
-Este projeto foi desenvolvido como **Atividade de Extensão Universitária** do curso de Ciência da Computação da UNIP. Ele tem dois objetivos:
-
-1. **Ensinar engenharia de dados na prática.** Spark e arquitetura medalhão aparecem em quase toda vaga de engenharia de dados, mas os tutoriais costumam usar dados de brinquedo. Aqui o dado é real, grande e "sujo": CSV de 1,7 GB em latin-1, separado por ponto e vírgula, com códigos que precisam ser traduzidos.
+1. **Aprender engenharia de dados na prática.** Spark e arquitetura medalhão aparecem em quase toda vaga na engenharia de dados.
 2. **Mostrar com dados públicos a desigualdade educacional**, em escala nacional e na região onde estudo (Vale do Paraíba, SP).
 
 ---
@@ -48,8 +46,6 @@ As tabelas completas da camada ouro estão em [`resultados/`](resultados/) (CSV 
 5. No final, um arquivo `resultados_enem_2023.zip` é baixado com as tabelas da camada ouro (CSV) e os gráficos.
 
 Se o zip não estiver no Drive, o notebook tenta baixar direto do site do INEP. O site às vezes recusa conexões vindas do Colab, por isso o caminho pelo Drive é o recomendado.
-
-> **Por que 2023 e não 2024 ou 2025?** A partir da edição de 2024, o INEP passou a publicar os microdados em arquivos separados, com outra estrutura. Este tutorial usa o formato de 2023, que traz o questionário socioeconômico e as notas no mesmo arquivo.
 
 ---
 
@@ -94,16 +90,6 @@ Se o zip não estiver no Drive, o notebook tenta baixar direto do site do INEP. 
 - **`cache()`** para não reler a mesma base em várias agregações.
 - **`pivot`** para comparar escola pública e privada lado a lado.
 - **Checagens de qualidade de dados**: duplicidade, notas fora da escala 0–1000 e códigos sem tradução.
-
----
-
-## Decisões e limitações
-
-- **Recorte da análise:** inscritos presentes nas quatro provas, sem treineiros.
-- **Tipo de escola** só é informado por quem concluiu o ensino médio em 2023. As comparações entre escola pública e privada consideram apenas esses concluintes.
-- **Município** é o local da prova, não o de residência (o INEP não divulga a residência).
-- **Renda** é a declarada pelo participante no questionário socioeconômico (pergunta Q006), em salários mínimos de 2023 (R$ 1.320,00).
-- A análise mostra **associação, não causa**: renda e tipo de escola andam juntos com muitos outros fatores.
 
 ---
 
