@@ -1,0 +1,37 @@
+﻿recorte;renda_grupo_ordem;renda_grupo;tipo_escola;participantes;media_geral;media_matematica;media_redacao
+Brasil;0;Até 1 SM;Privada;12188;566,6;549,2;716,0
+Brasil;0;Até 1 SM;Pública;355096;488,4;468,0;557,0
+Brasil;1;1 a 2 SM;Privada;28516;585,4;578,3;737,5
+Brasil;1;1 a 2 SM;Pública;248159;521,1;509,4;602,0
+Brasil;2;2 a 3 SM;Privada;29993;598,1;601,5;747,2
+Brasil;2;2 a 3 SM;Pública;106281;540,3;536,9;627,2
+Brasil;3;3 a 5 SM;Privada;47247;611,1;623,0;759,6
+Brasil;3;3 a 5 SM;Pública;76064;555,9;560,2;647,6
+Brasil;4;5 a 10 SM;Privada;56046;626,9;648,9;775,9
+Brasil;4;5 a 10 SM;Pública;36044;574,8;587,2;675,5
+Brasil;5;Mais de 10 SM;Privada;47338;650,9;688,7;799,7
+Brasil;5;Mais de 10 SM;Pública;7886;595,3;619,0;698,0
+São Paulo;0;Até 1 SM;Privada;1409;573,7;572,5;691,9
+São Paulo;0;Até 1 SM;Pública;24978;504,0;488,6;558,4
+São Paulo;1;1 a 2 SM;Privada;5218;582,4;585,4;705,4
+São Paulo;1;1 a 2 SM;Pública;47136;525,0;518,6;590,6
+São Paulo;2;2 a 3 SM;Privada;7422;592,3;602,9;716,2
+São Paulo;2;2 a 3 SM;Pública;27285;541,1;542,7;614,3
+São Paulo;3;3 a 5 SM;Privada;13976;603,2;621,7;726,4
+São Paulo;3;3 a 5 SM;Pública;20128;552,7;561,3;628,3
+São Paulo;4;5 a 10 SM;Privada;16962;617,6;644,9;742,0
+São Paulo;4;5 a 10 SM;Pública;8374;567,5;584,0;648,5
+São Paulo;5;Mais de 10 SM;Privada;14378;640,5;683,2;764,8
+São Paulo;5;Mais de 10 SM;Pública;1474;579,2;604,8;656,4
+Vale do Paraíba;0;Até 1 SM;Privada;100;596,3;600,3;739,4
+Vale do Paraíba;0;Até 1 SM;Pública;1419;507,2;493,0;561,8
+Vale do Paraíba;1;1 a 2 SM;Privada;384;597,6;605,8;733,5
+Vale do Paraíba;1;1 a 2 SM;Pública;2702;527,8;523,8;589,3
+Vale do Paraíba;2;2 a 3 SM;Privada;489;609,7;626,0;747,8
+Vale do Paraíba;2;2 a 3 SM;Pública;1496;543,9;547,4;618,0
+Vale do Paraíba;3;3 a 5 SM;Privada;980;613,6;635,1;744,9
+Vale do Paraíba;3;3 a 5 SM;Pública;1120;555,7;567,8;632,4
+Vale do Paraíba;4;5 a 10 SM;Privada;1103;630,4;660,5;766,6
+Vale do Paraíba;4;5 a 10 SM;Pública;459;571,3;592,7;649,5
+Vale do Paraíba;5;Mais de 10 SM;Privada;742;649,5;695,7;782,9
+Vale do Paraíba;5;Mais de 10 SM;Pública;84;576,4;603,3;648,3
